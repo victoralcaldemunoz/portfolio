@@ -1,0 +1,66 @@
+.head{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222; 
+    color: #fff; 
+}
+
+hr, br{
+    color: aquamarine;
+}
+
+a{
+    color: chartreuse;
+}
+
+h2{
+    color: rgb(197, 253, 151);
+}
+
+.container{
+    display: inline-block;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Cambiar a flexbox */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(200, 250, 150);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project{
+    background-color: rgb(55, 55, 55);
+}
+
+.mosquito{
+    width: 5vh;
+    height: auto;
+}
